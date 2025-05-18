@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sessionCount">총 세션: 0</div>
+  <div class="container">
+    <h1 id="title">Pomodoro Timer</h1> 
+    <canvas id="circle" width="200" height="200"></canvas>
+    <div id="timeText">25:00</div>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+      <button id="ai">Emotions & concentration</button> <!--ai 영상인식 버튼-->
+    </div>
+  </div>
+  <audio id="alarm" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
